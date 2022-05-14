@@ -1,0 +1,126 @@
+body{
+    padding-left: 350px;
+    padding-right: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: 1px solid #ccc;
+      /* background-color: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 10px; */
+}
+.main-content{
+    display: flex;
+    /* box-shadow:  5px 10px #888888; */
+    
+}
+
+.header{
+    padding-top: 70%;
+    padding-left: 30%;
+    padding-right: 30%; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    margin: auto;
+
+}
+.sub-header{
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: grey;
+
+}
+.left-content{
+    background-color: rgb(244, 239, 239);
+    height: 1000px;
+    width: 40%;
+    display: inline-block;
+    
+}
+
+.right-content{
+    background-color: bisque;
+    /* background-size: cover; */
+    height: 1000px;
+    width: 60%;
+    display: inline-block;
+}
+.view-button{
+    border-radius: 30% ;
+    display: flex;
+    /* position: relative; */
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    size: 40px;
+}
+.btn-view{
+    /* size: 40px; */
+    border-radius: 30px 30px 30px  30px ;
+    border: 180px;
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    border: 1px solid grey;
+    margin: 10px;
+    justify-content: center;
+    width: 150px;
+}
+.btn-content{
+    padding-bottom: 10px;
+}
+
+
+.right-content-img{
+    height: 1000px; ;
+    width:100% ;
+}
+.our-work{
+    text-align: center;
+    color: white;
+    background-color:rgb(48, 35, 35) ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+
+}
+.our-work-content{
+    text-align: center;
+    color: black;
+    background-color:white;
+    font-size: 20px; 
+    /* padding-bottom: 30px; */
+    padding-top: 20px;
+}
+.nature-content{
+    width: 100%;
+}
+.nature-content1{
+    width: 100%;
+    padding-top: 20px;
+
+}
+.our-work-p{
+    text-align: center;
+    color: black;
+    background-color:white;
+    font: size 15px;
+    /* padding: 30px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    padding-top: 40px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.footer-head{
+    font-size: 40px;
+    font-weight: 700; 
+}
+.footer-last{
+    padding-bottom: 20px;
+}
